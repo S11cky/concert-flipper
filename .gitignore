@@ -1,17 +1,13 @@
 ﻿# Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-*.egg-info/
+
+# venv
 .venv/
 
-# Env
+# local env
 .env
 
-# OS
+# OS/IDE
 .DS_Store
-Thumbs.db
-
-# Logs
-*.log
+.vscode/
