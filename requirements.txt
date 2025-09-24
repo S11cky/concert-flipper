@@ -1,5 +1,10 @@
-﻿sqlalchemy
+﻿## Quick start
+
+1. Create `.env` from `.env.example` and fill values.
+2. Run DB migrations:
+   ```bash
+   python -m scripts.migrate
+@'
 psycopg2-binary
-python-telegram-bot==21.6
-python-dotenv
 requests
+python-dotenv
